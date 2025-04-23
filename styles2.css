@@ -1,0 +1,43 @@
+.container {
+  background-color: aqua;
+  max-width: 50vw;
+  border-radius: 14px;
+}
+
+.name {
+  padding: 12px;
+}
+
+.desc-container {
+  background-color: blue;
+  color: white;
+  padding-left: 12px;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.bottom-desc {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.bottom-desc h1 {
+  font-size: small;
+}
+
+.parent-flexbox {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  background-color: red;
+}
+
+.child-flexbox {
+  height: 50px;
+  width: 50px;
+  background-color: aquamarine;
+}
